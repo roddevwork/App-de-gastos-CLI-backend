@@ -24,7 +24,7 @@ help [command] display help for command
 
 ```
 
-- 2- Ingresar tus gasto y monto por parameto:
+- 2- Ingresar tu gasto y monto por parameto:
 
 ```
 node gastos.js add Gas 1000

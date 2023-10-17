@@ -25,7 +25,12 @@ program
 	.command("add <Descripcion-Gato> <Monto>")
 	.description("Agrega un gasto")
 	.action((nombre, monto) => {
-		gastos.push({ nombre, monto: parseFloat(monto) })
+		const fechaHora = new Date()
+		gastos.push({
+			nombre,
+			monto: parseFloat(monto),
+			fecha: fechaHora.toISOString(),
+		})
 		guardarGastos()
 		console.log("Gasto agregado con éxito.")
 	})
