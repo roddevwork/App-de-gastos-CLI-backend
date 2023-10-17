@@ -1,6 +1,10 @@
 [
   {
     "nombre": "Gas",
-    "monto": 10000
+    "monto": 1000
+  },
+  {
+    "nombre": "electricidad",
+    "monto": 3000
   }
 ]
