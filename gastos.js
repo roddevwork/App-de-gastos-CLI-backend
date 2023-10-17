@@ -43,7 +43,9 @@ program
 		console.log("Lista de Gastos:")
 		gastos.forEach((gasto, index) => {
 			console.log(
-				`${index + 1}. Nombre: ${gasto.nombre}, Monto: ${gasto.monto}`
+				`${index + 1}. Nombre: ${gasto.nombre}, Monto: ${gasto.monto}, Fecha: ${
+					gasto.fecha
+				}. `
 			)
 		})
 	})

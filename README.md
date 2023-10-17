@@ -38,7 +38,7 @@ node gastos.js add Gas 1000
 node gastos.js list
 
 Lista de Gastos:
-1. Nombre: Gas, Monto: 1000
+1. Nombre: Gas, Monto: 1000, , Fecha: 2023-10-17T00:23:18.146Z
 
 ```
 
